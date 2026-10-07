@@ -25,6 +25,13 @@
             <li><a href="https://www.linkedin.com/in/sergeyvasilyev" target="_blank" rel="noopener">LinkedIn</a></li>
             <li><a href="https://github.com/nolar" target="_blank" rel="noopener">GitHub</a></li>
             <li><a href="../">Englisch Version</a></li>
+            <li><a href="#" id="print-link">🖨️ Drucken/PDF</a></li>
+            <script>
+              document.getElementById('print-link').addEventListener('click', (e) => {
+                e.preventDefault();          // stop the "#" jump to top of page
+                window.print();
+              });
+            </script>
         </ul>
     </div>
 </nav>
