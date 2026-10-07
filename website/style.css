@@ -200,10 +200,6 @@ li {
         margin: 0;
     }
 
-    body {
-        font-size: 12pt;
-    }
-
     a,
     a:hover,
     a:focus,
@@ -212,12 +208,8 @@ li {
         text-decoration: none;
     }
 
-    h1 {
-        font-size: 24pt;
-    }
-
-    h2 {
-        font-size: 16pt;
-        margin-top: 20px;
-    }
+    /* Make it more compact to fit the page. */
+    h1 { font-size: 18pt; mergin-top: 10px; margin-bottom: 10px; }
+    h2 { font-size: 14pt; margin-top: 10px; margin-bottom: 3px; }
+    body { font-size: 10pt; }
 }
